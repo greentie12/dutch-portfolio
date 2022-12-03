@@ -1,3 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: rgb(181, 137, 222);
+  background-color: #d8d8d8;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #1d1d1d;
+}
+
+img {
+  /* width: 100%; */
+}
+
+.logo {
+  width: 60px;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+#main-nav ul {
+  display: flex;
+  gap: 2rem;
+}
+
+#main-nav ul li:hover {
+  border-bottom: 3px solid #a26b0c;
+  transition: all 0.4s ease;
+}
+
+.hero {
+  background: url("../images/iceland.jpg") no-repeat center center / cover;
+  height: 50vh;
+}
+
+.info {
+  background-color: #000000;
+  color: #fff;
+  display: inline-block;
+  width: 40%;
+  opacity: 0.8;
+  margin-top: 150px;
+  margin-left: 25px;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 4rem 0;
+}
+
+.card {
+  width: 500px;
+  background-color: #fff;
+  padding: 1rem;
+  /* min-height: 250px; */
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.current {
+  border-bottom: 3px solid rgb(70, 168, 225);
+}
+
+.card-pic {
+  display: flex;
+  gap: 1rem;
+}
+
+.self {
+  width: 200px;
+  height: auto;
+}
+
+footer {
+  background-color: #1d1d1d;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  padding: 8px 0;
 }
